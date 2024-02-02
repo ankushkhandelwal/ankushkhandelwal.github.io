@@ -309,7 +309,7 @@ h3 {
 }
 
 .full-height {
-  height: 100vh;
+  height: 130vh;
 }
 
 /* Original */
@@ -325,7 +325,7 @@ h3 {
 }
 
 #intro.section .container {
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 200;
   left: 0;
   position: absolute;
@@ -344,7 +344,7 @@ h3 {
   /* font-weight: 400; */
   line-height: 150%;
   /* padding: 0 0px; */
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); */
 }
 
 #intro.section .underline {
@@ -393,7 +393,7 @@ h3 {
 }
 
 .card .card-content {
-  padding-bottom: 30px;
+  padding-bottom: 3px;
 }
 
 .card .card-content p {
@@ -439,6 +439,7 @@ h3 {
   line-height: 200%;
   list-style-type: disc;
   margin-left: 24px;
+  /* margin-bottom: 200px; */
 }
 
 .card ul li li {
@@ -450,7 +451,11 @@ h3 {
   font-size: 24px;
 }
 
-.card .card-content .card-title {
+.card .proj-title {
+  font-size: 20px;
+}
+
+.card .card-content .card-title .proj-title{
   line-height: 2.5rem;
 }
 
@@ -487,7 +492,7 @@ a.hoverline:hover {
 }
 
 #skills .col img.responsive-img {
-  margin: 0 auto;
+  margin: 0;
   max-height: 100px;
   padding-bottom: 10px;
   text-align: center;
@@ -566,17 +571,18 @@ small {
   background-color: #00695c !important;
 } */
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   #experience .container {
     width: 860px;
   }
-}
+} */
 
 @media (max-width: 1360px) {
   .card ul li {
     font-size: 14px;
     line-height: 200%;
     margin-left: 20px;
+    margin-bottom: 20px;
   }
 }
 
@@ -590,6 +596,12 @@ small {
   main {
     padding-left: 0px;
     padding-top: 64px;
+  }
+  h2 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 200%;
+    margin: 30px 0 0;
   }
   ul.side-nav a {
     line-height: 100%;
@@ -644,7 +656,7 @@ small {
     top: 64px;
   }
   section#intro {
-    margin-bottom: -64px;
+    /* margin-bottom: -px; */
   }
   .card .role {
     position: relative;
@@ -666,11 +678,22 @@ small {
     font-size: 20px;
     line-height: 24px;
   }
+  .card .card-content .proj-title {
+    font-size: 20px;
+    line-height: 24px;
+  }
   #experience span.card-title {
     text-align: center;
     display: block;
   }
+  #experience span.proj-title {
+    text-align: center;
+    display: block;
+  }
   #experience span.card-title a {
+    margin: 0;
+  }
+  #experience span.proj-title a {
     margin: 0;
   }
   i.mdi-navigation-close.right {
