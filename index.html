@@ -137,7 +137,7 @@
                 where I lead the product and go-to-market strategy.
                 <br><br>
                 Through non-diluted funding of $250K, Terra Cover has built an innovative platform that leverages
-                satellite imagery and machine learning to provide actionable insights for water resource management.
+                satellite imagery and machine learning to provide actionable insights for water intelligence at scale.
                 <br><br>
               </span>
             </div>
@@ -185,23 +185,21 @@
                 <p>
                 <ul>
                   <li>
-                    <b>GOAL: </b> Extract geographic location of flood events from news articles, and create a
-                    two-sentence summary of the event.
+                    <b>GOAL: </b> Build a catalog of flood events by extracting geographic locations from news articles
+                    and create a two-sentence summary for each event.
                   </li>
                   <li>
-                    <b>CHALLENGE: </b> Not all locations mentioned in an article refer to a flooded location, and
-                    traditional
-                    Named Entity Recognition approach will not be sufficient.
+                    <b>CHALLENGE: </b> Not all locations mentioned in an article refer to a flooded area, making the
+                    traditional Named Entity Recognition (NER) approach insufficient.
                   </li>
                   <li>
-                    <b>SOLUTION: </b> Generate a task-aware prompt by asking LLM general questions and using response
-                    keywords to guide prompt creation.
+                    <b>SOLUTION: </b> Generate task-aware prompts by asking Large Language Models (LLMs) conceptual
+                    questions about the task at hand, and using the response keywords to guide the creation of prompts.
                   </li>
                   <li>
-                    <b>IMPACT: </b> Achieved 70% reduction in human annotator time for evaluating 20K image captions
-                    from 9K news articles, enabling rapid detection of events like flash floods which are often not
-                    monitored
-                    via satellite imagery.
+                    <b>IMPACT: </b> Achieved a 70% reduction in human annotator time by evaluating 20,000 image captions
+                    from 9,000 news articles, enabling the rapid detection of events like flash floods, which are often
+                    not monitored via satellite imagery.
                   </li>
                 </ul>
               </div>
@@ -288,11 +286,10 @@
                 <p>
                 <ul>
                   <li>
-                    <b>GOAL: </b> Improve accuracy of water extent maps available from the state-of-the-art dataset (GSW
-                    dataset).
+                    <b>GOAL: </b> Improve accuracy of water extent maps available from the state-of-the-art datasets.
                   </li>
                   <li>
-                    <b>CHALLENGE: </b> GSW water maps contain lot of missing data and labelling errors.
+                    <b>CHALLENGE: </b> Existing water maps contain lot of missing data and labelling errors.
                   </li>
                   <li>
                     <b>SOLUTION: </b> Proposed a new approach to rank pixels by leveraging the physical principles
@@ -351,7 +348,8 @@
             <div class="row">
               <div class="col s12 m12">
                 <p>
-                  <span class="proj-title"><a class="brown-text text-darken-2">Entity Aware Learning </a></span>
+                  <span class="proj-title"><a class="brown-text text-darken-2">Entity Aware Learning for Personalized
+                      Prediction</a></span>
                 </p>
               </div>
             </div>
@@ -369,18 +367,19 @@
                     <b>GOAL: </b> Create robust predictive models for related entities.
                   </li>
                   <li>
-                    <b>CHALLENGE: </b> Very limited training samples for each entity, and external knowledge about
-                    entities are often not available or incomplete.
+                    <b>CHALLENGE: </b> There are very limited training samples for each entity, and external knowledge
+                    about the entities is often not available or incomplete.
                   </li>
                   <li>
-                    <b>SOLUTION: </b> In scenarios where entities during testing phase were available during training
-                    phase, assigning random entity characteristics can enable robust learning compared to building a
-                    single model by combining data from all entities. Furthermore, entities characteristics can be
-                    learned using input/output data by leveraging a novel contrastive loss function.
+                    <b>SOLUTION: </b> In scenarios where the entities tested were also present during the training
+                    phase, assigning random characteristics to each entity can enable more robust learning compared to
+                    building a single model with combined data from all entities. Additionally, entity characteristics
+                    can be learned from input/output data by leveraging a novel contrastive loss function for timeseries
+                    data.
                   </li>
                   <li>
-                    <b>IMPACT: </b> Showed how robust personalized models can be learned for each entity without needing
-                    to collect external information about them.
+                    <b>IMPACT: </b> Demonstrated operational improvements in modeling streamflow (flow of water through
+                    rivers) from weather timeseries data.
                   </li>
                 </ul>
               </div>
@@ -515,10 +514,10 @@
                     into account bi-partite nature of modalities in the data.
                   </li>
                   <li>
-                    <b>IMPACT: </b> Created a 15 year history surface water at global scale, and found many interesting
-                    patterns which were previously not explored in detail including sudden rise of areal extents of
-                    lakes in the Tibetan plateau after 2000, negative correlation between ground water and surface
-                    water in Asia due to water intensive crops such as rice.
+                    <b>IMPACT: </b> Created a 15 year history surface water at global scale, uncovering many previously
+                    unexplored patterns. These include a sudden increase in the areal extents of lakes in the Tibetan
+                    plateau after 2000 and a negative correlation between groundwater and surface water in Asia,
+                    attributed to water-intensive crops such as rice.
                   </li>
                 </ul>
               </div>
@@ -566,18 +565,19 @@
                 <p>
                 <ul>
                   <li>
-                    <b>GOAL: </b> Create areal extent of burn scars in forested areas using satellite imagery.
+                    <b>GOAL: </b> Create maps to determine the areal extent of burn scars in forested areas using
+                    satellite imagery.
                   </li>
                   <li>
-                    <b>CHALLENGE: </b> There was no gold standard ground truth available to build models that are
-                    effective at large scales.
+                    <b>CHALLENGE: </b> The absence of a gold standard for ground truth made it difficult to build models
+                    that are effective on a large scale.
                   </li>
                   <li>
-                    <b>SOLUTION: </b> Proposed a new method to optimize G-measure using imperfect labels.
+                    <b>SOLUTION: </b> Introduced a new method to optimize the G-measure using imperfect labels.
                   </li>
                   <li>
-                    <b>IMPACT: </b> Created 15 year history of fires of the whole tropical belt. Our approach detected
-                    three times more burned area than the state-of-the-art NASA product.
+                    <b>IMPACT: </b> Generated a 15-year history of fires across the entire tropical belt. Our approach
+                    detected three times more burned area compared to the state-of-the-art NASA product.
                   </li>
                 </ul>
               </div>
@@ -625,19 +625,20 @@
                 <p>
                 <ul>
                   <li>
-                    <b>GOAL: </b> Create maps of annual increase in palm oil plantations using satellite imagery.
+                    <b>GOAL: </b> Generate maps showing the annual expansion of palm oil plantations using satellite
+                    imagery.
                   </li>
                   <li>
-                    <b>CHALLENGE: </b> Existing plantation maps provided by different organizations have either poor
-                    precision or recall.
+                    <b>CHALLENGE: </b> The precision or recall of existing plantation maps, as provided by various
+                    organizations, is often inadequate.
                   </li>
                   <li>
-                    <b>SOLUTION: </b> Used a generative model which capture the relationship between the latent true
-                    label and the imperfect labels from multiple annotators.
+                    <b>SOLUTION: </b> Proposed a generative model to capture the relationship between the latent true
+                    labels and the imperfect labels provided by multiple annotators.
                   </li>
                   <li>
-                    <b>IMPACT: </b> Created 15 year history of conversion of forest to palm oil in plantations in
-                    Indonesia.
+                    <b>IMPACT: </b> Compiled a 15-year history detailing the conversion of forests into palm oil
+                    plantations in Indonesia, highlighting significant changes over time.
                   </li>
                 </ul>
               </div>
@@ -688,22 +689,24 @@
                 <p>
                 <ul>
                   <li>
-                    <b>GOAL: </b> Create a high accuracy map of cover crops in mid-west. Cover crops are crops grown
-                    after the primary crop is harvested.
+                    <b>GOAL: </b> Develop a high-accuracy map of cover crops in the Midwest. Cover crops are those
+                    planted following the harvest of the primary crop.
                   </li>
                   <li>
-                    <b>CHALLENGE: </b> Even small amount of errors in large primary crops such and corn and soybean can
-                    be a major issue in mapping cover crops (e.g. even 2 % error in corn/Soybean can lead to more than
-                    50 % error of commission for Cover crop Mapping )
+                    <b>CHALLENGE: </b> Minor errors in mapping large primary crops such as corn and soybean can
+                    significantly affect the accuracy of cover crop mapping. For example, a 2% error in corn or soybean
+                    mapping can result in more than a 50% commission error for cover crop mapping.
 
                   </li>
                   <li>
-                    <b>SOLUTION: </b> Used an ensemble of multiple one-class SVMs trained for noisy crops labels from
-                    USDA. USDA labels were updated based on accept/reject patterns by different one-class models.
+                    <b>SOLUTION: </b> Implemented an ensemble of multiple one-class Support Vector Machines (SVMs)
+                    trained with noisy crop labels from the USDA. The USDA labels were refined based on
+                    acceptance/rejection patterns identified by the different one-class models.
                   </li>
                   <li>
-                    <b>IMPACT: </b> Significantly reduced errors of commission on green ditches at the edges of crop
-                    fields labeled as Corn/Soybeans by USDA due to mixed pixel issues at 30m spatial resolution.
+                    <b>IMPACT: </b> Achieved a significant reduction in commission errors for green ditches on the edges
+                    of crop fields erroneously labeled as Corn/Soybeans by the USDA, addressing the mixed pixel issues
+                    encountered with 30m spatial resolution imagery.
                   </li>
                 </ul>
               </div>
@@ -747,18 +750,16 @@
                 <p>
                 <ul>
                   <li>
-                    <b>GOAL: </b> Create robust maps of annual changes in impervious area using satellite imagery.
+                    <b>GOAL: </b> Develop high-precision maps to track annual changes in impervious surfaces using satellite imagery.
                   </li>
                   <li>
-                    <b>CHALLENGE: </b> Annual changes are often significantly smaller than classification errors.
+                    <b>CHALLENGE: </b> The annual alterations in impervious areas are frequently much smaller than the errors from classification processes. Hence, even a 95 % accurate model can lead to large errors in amount of impervious area added/removed.
                   </li>
                   <li>
-                    <b>SOLUTION: </b> Used probabilities of transitions using Hidden Markov models to remove spurious
-                    changes.
-                    For example, probability of a vegetation pixel converting to impervious is higher than vice-versa.
+                    <b>SOLUTION: </b> Employed Hidden Markov models to calculate the probabilities of transitions, thereby eliminating spurious changes. For instance, the likelihood of a vegetation pixel transitioning to an impervious state is higher than the reverse.
                   </li>
                   <li>
-                    <b>IMPACT: </b> Used the approach to create 10 year urbanization history for 7 cities in Brazil.
+                    <b>IMPACT: </b> Applied this methodology to document a decade of urbanization across seven cities in Brazil, effectively mapping the expansion of impervious areas.
                   </li>
                 </ul>
               </div>
@@ -875,10 +876,12 @@
                 Leading a project to create the first high-resolution map of Arctic lakes using deep learning.
               </li>
               <li>
-                Supervising a graduate student to build a new foundation model for temporal sequences of satellite imagery.
+                Supervising a graduate student to build a new foundation model for temporal sequences of satellite
+                imagery.
               </li>
               <li>
-                Built new techniques for modeling long-term dependencies in time series data using RNNs and Transformers.
+                Built new techniques for modeling long-term dependencies in time series data using RNNs and
+                Transformers.
               </li>
               <li>
                 Supervised 3 graduate students on different machine learning projects.
@@ -922,7 +925,7 @@
                 Contributed to a publication on anomaly detection from multivariate noisy sensor data.
               </li>
               <li>
-                Implemented key anomaly detection algorithms for IBM's anomaly detection software. 
+                Implemented key anomaly detection algorithms for IBM's anomaly detection software.
               </li>
             </ul>
           </div>
@@ -957,7 +960,8 @@
 
             <ul>
               <li>
-                Managed a project to study the dependencies of forest ecosystems on climate variables using satellite imagery and weather data.
+                Managed a project to study the dependencies of forest ecosystems on climate variables using satellite
+                imagery and weather data.
               </li>
 
               <li>
@@ -998,11 +1002,13 @@
               </li>
 
               <li>
-                Actively participated in cross-disciplinary discussions and launched multiple projects for the lab including urbanization, palm oil plantation mapping, surface water mapping, and crop detection.
+                Actively participated in cross-disciplinary discussions and launched multiple projects for the lab
+                including urbanization, palm oil plantation mapping, surface water mapping, and crop detection.
               </li>
 
               <li>
-                Received a Doctoral Dissertation Award for my thesis work on mapping global surface water changes using machine learning.
+                Received a Doctoral Dissertation Award for my thesis work on mapping global surface water changes using
+                machine learning.
               </li>
 
               <li>
@@ -1055,7 +1061,7 @@
       </div>
     </section>
 
-    
+
 
 
     <!-- typed.js -->
